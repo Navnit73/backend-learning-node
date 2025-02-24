@@ -3,12 +3,17 @@
   "version": "1.0.0",
   "description": "learning nodejs from chai and code",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "author": "Navnit",
   "license": "ISC",
   "dependencies": {
     "mongoose": "^8.10.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prettier": "^3.5.2"
   }
 }
